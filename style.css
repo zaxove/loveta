@@ -1,0 +1,53 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei,
+    Arial, sans-serif;
+  background-image: url("");
+  /* font-size: 85%; */
+  margin: 0;
+}
+
+h2 {
+  font-size: 220%;
+  font-weight: 400;
+}
+
+#vcomments {
+  margin: 20px !important;
+}
+
+.content {
+  transform: translate(0, -50%);
+  text-align: center;
+  position: relative;
+  width: 100%;
+  top: 150px;
+}
+
+.timer {
+  font-size: 180%;
+  line-height: 1.5;
+  margin: 1em 0;
+}
+
+.timer b {
+  color: rgb(253, 99, 125);
+}
+
+/*滚动条样式*/
+::-webkit-scrollbar {
+  width: 4px;
+  /*height: 4px;*/
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
